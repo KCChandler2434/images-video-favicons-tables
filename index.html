@@ -69,7 +69,7 @@
                 <p>There are a couple of reasons for adding images to your HTML. One reason is that you would like to add an image for decoration. This means that if you took it off the page, the user would still be able to use and understand the page fully, because the image isn't adding any information they won't have otherwise. The other reason is because you have images that are necessary content, and if you remove them from the page the user would be lost or missing needed information.</p>
 
                 <p>Images have two required attributes: <code>src</code>, which tells the browser where the image is and should use a relative link, and <code>alt</code>, which uses text to describe the image so that you could imagine what it looks like if you can't see it. Remember that if your image has any text in it, you have to include that in the alt text. It is also important to add the <code>height</code> and <code>width</code> attributes, as it improves the way your page looks as it loads. Ensure that those attributes are taken from the image, after editing and saving it at the correct size. Not respecting the aspect ratio will make your images look distorted on the screen.</p>
-
+                </section>
                 <section>
                     <h3><span>&#10033;&nbsp;</span> Adding Decorative Images to HTML</h3>
                     <p>As explained above, a decorative images is one that if you took it off the page, the user would still be able to use and understand the page fully, because the image isn't adding any information they won't have otherwise. When adding these in your HTML, you indicate that they are decorative by leaving the alt text attribute empty. You can't leave the alt attribute off completely, just blank. Generally though, you'll add decorative images using CSS.</p>
@@ -100,6 +100,9 @@
                     <p>The video that we will embed below is included in the video folder of this project. Your zyBook explains how these tags work in detail, but today we'll write some minimum code to get the video to display on our page. Below, we'll add the video from the video folder in the project. Include the attribute that will display controls for the video, and set the width.</p>
                     
                     <!-- TO DO: Add the video from the files below using HTML5 -->
+                    <video controls width="425">
+                        <source src="video/video.mp4" type="video/mp4">
+                    </video>
 
                     <a href="https://www.pexels.com/video/laptop-use-as-controller-for-a-modern-sound-system-3134599/" class="credit">Video by Caleb Oquendo</a>
                 </section>
